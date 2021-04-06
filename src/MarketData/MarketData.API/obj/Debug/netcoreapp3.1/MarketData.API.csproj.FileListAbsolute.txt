@@ -72,3 +72,8 @@ C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcore
 C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.API\obj\Debug\netcoreapp3.1\MarketData.API.MvcApplicationPartsAssemblyInfo.cs
