@@ -1,0 +1,22 @@
+<div class='table-responsive'>
+    <table class='table' *ngIf='fxData && fxData.length'>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Currency</th>
+          <th>Ask</th>
+          <th>Bid</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let fxData of fxData'>
+            <td> {{ fxData.id }}  </td>
+            <td>{{ fxData.currency }}</td>
+            <td>{{ fxData.ask }}</td>
+            <td>{{ fxData.bid }}</td>
+            <td>{{ fxData.quoteDateTime }}</td>
+        </tr>
+       </tbody>
+    </table>
+  </div>
