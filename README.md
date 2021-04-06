@@ -18,7 +18,7 @@ Swagger URI
 
 http://localhost:31250/swagger/index.html
 
-Database used in meamory datase.
+Database used in meamory database.
 
                        
  Client for the above API is developed in Angular 9 using Visual Studio Code -->
