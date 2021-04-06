@@ -1,0 +1,359 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.API\\MarketData.API.csproj": {}
+  },
+  "projects": {
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.API\\MarketData.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.API\\MarketData.API.csproj",
+        "projectName": "MarketData.API",
+        "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.API\\MarketData.API.csproj",
+        "packagesPath": "C:\\Users\\nagag_000\\.nuget\\packages\\",
+        "outputPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nagag_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj"
+              },
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj"
+              },
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj"
+              },
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\MarketData.Services.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\MarketData.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj",
+        "projectName": "MarketData.Context",
+        "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj",
+        "packagesPath": "C:\\Users\\nagag_000\\.nuget\\packages\\",
+        "outputPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nagag_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj",
+        "projectName": "MarketData.Models",
+        "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\MarketData.Models.csproj",
+        "packagesPath": "C:\\Users\\nagag_000\\.nuget\\packages\\",
+        "outputPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nagag_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj",
+        "projectName": "MarketData.Repositories",
+        "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj",
+        "packagesPath": "C:\\Users\\nagag_000\\.nuget\\packages\\",
+        "outputPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nagag_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Context\\MarketData.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\MarketData.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\MarketData.Services.csproj",
+        "projectName": "MarketData.Services",
+        "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\MarketData.Services.csproj",
+        "packagesPath": "C:\\Users\\nagag_000\\.nuget\\packages\\",
+        "outputPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nagag_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj": {
+                "projectPath": "C:\\MicroServices\\SocieteGenerale\\src\\MarketData\\MarketData.Repositories\\MarketData.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

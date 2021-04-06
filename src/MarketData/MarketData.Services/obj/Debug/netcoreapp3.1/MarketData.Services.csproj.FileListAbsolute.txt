@@ -1,0 +1,16 @@
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Services.deps.json
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Services.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Services.pdb
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Context.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Models.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Repositories.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Repositories.pdb
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Context.pdb
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\bin\Debug\netcoreapp3.1\MarketData.Models.pdb
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.csprojAssemblyReference.cache
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.AssemblyInfoInputs.cache
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.AssemblyInfo.cs
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.csproj.CoreCompileInputs.cache
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.csproj.CopyComplete
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.dll
+C:\MicroServices\SocieteGenerale\src\MarketData\MarketData.Services\obj\Debug\netcoreapp3.1\MarketData.Services.pdb
