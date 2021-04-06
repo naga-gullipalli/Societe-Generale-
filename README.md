@@ -1,5 +1,5 @@
 # Societe-Generale-
-API developed  is in.Net core 3.1
+API developed  is in.Net core 3.1 using Visual Studio
 API Project Contains below --> 
 
 
@@ -21,7 +21,7 @@ http://localhost:31250/swagger/index.html
 Database used in meamory datase.
 
                        
- Client for the above API is developed in Angular 9 -->
+ Client for the above API is developed in Angular 9 using Visual Studio Code -->
  
  Only get is implemented on Client to get existing FX Quotations.
   
